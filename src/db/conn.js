@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const DB = 'mongodb+srv://aryan23:shirodkar10@cluster0.kxxsedt.mongodb.net/?retryWrites=true&w=majority';
+const DB = 'mongodb://127.0.0.1:27017/gripbank';
 
     mongoose.set('strictQuery',true);
     mongoose.connect(DB).then(()=>{
